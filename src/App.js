@@ -3,8 +3,8 @@ import React, { useEffect } from "react";
 import "./App.css";
 
 import Hero from "./Components/Hero/Hero";
-import Details from "./Components/Details/Details";
 import Awards from "./Components/Awards/Awards";
+import Reviews from "./Components/Reviews/Reviews";
 import Footer from "./Components/Footer/Footer";
 
 function App() {
@@ -30,8 +30,8 @@ function App() {
     <React.Fragment>
       <div id="trailer"></div>
       <Hero />
-      <Details />
       <Awards />
+      <Reviews />
       <Footer />
     </React.Fragment>
   );
