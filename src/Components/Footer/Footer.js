@@ -30,7 +30,7 @@ const Footer = () => {
               <a href="#">Photography</a>
             </div>
           </div>
-          <div>
+          <div className="footer-link">
             <div className="footer-heading">About</div>
             <div className="footer-anchors">
               <a href="#">About us</a>
@@ -42,7 +42,7 @@ const Footer = () => {
               <a href="#">Awards</a>
             </div>
           </div>
-          <div>
+          <div className="footer-link">
             <div className="footer-heading">Terms</div>
             <div className="footer-anchors">
               <a href="#">Privacy Policy</a>
@@ -52,14 +52,14 @@ const Footer = () => {
               <a href="#">Fees and Charges</a>
             </div>
           </div>
-          <div>
+          <div className="footer-link">
             <div className="footer-heading">Support</div>
             <div className="footer-anchors">
               <a href="#">Help & Support</a>
               <a href="#">Trust & Safety</a>
             </div>
           </div>
-          <div>
+          <div className="footer-link">
             <div className="footer-heading">Apps</div>
             <div className="footer-images">
               <a href="#">
@@ -78,16 +78,16 @@ const Footer = () => {
           </div>
           <div className="footer-icons">
             <a href="https://twitter.com">
-              <img src={Twitter} width={40} />
+              <img src={Twitter} width={40} className="social-images" />
             </a>
             <a href="https://linkedin.com">
-              <img src={LinkedIn} width={40} />
+              <img src={LinkedIn} width={40} className="social-images" />
             </a>
             <a href="https://github.com">
-              <img src={GitHub} width={40} />
+              <img src={GitHub} width={40} className="social-images" />
             </a>
             <a href="https://instagram.com">
-              <img src={Instagram} width={40} />
+              <img src={Instagram} width={40} className="social-images" />
             </a>
           </div>
         </div>

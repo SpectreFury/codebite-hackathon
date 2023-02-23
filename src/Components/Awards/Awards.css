@@ -146,3 +146,60 @@
   left: 60px;
   width: 80%;
 }
+
+@media screen and (max-width: 1440px) {
+  .showcase {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .awards {
+    padding: 40px 100px;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .award-card {
+    width: 100%;
+    text-align: center;
+  }
+
+  .showcase {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .screen {
+    height: 240px;
+  }
+
+  .showcase-background {
+    width: 240px;
+    top: 20px;
+  }
+
+  .awards-heading {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen {
+    height: 140px;
+  }
+
+  .showcase-background {
+    width: 140px;
+    top: 12px;
+    left: 28px;
+  }
+
+  .ai-card {
+    padding: 41px 36px 38px 40px;
+  }
+}

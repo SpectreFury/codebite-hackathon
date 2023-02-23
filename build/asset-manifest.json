@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/codebite-hackathon-forked/static/css/main.1d1c5b25.css",
+    "main.js": "/codebite-hackathon-forked/static/js/main.199f8532.js",
+    "static/media/abstract-71292.mp4": "/codebite-hackathon-forked/static/media/abstract-71292.7a78d9504fd18e134a5b.mp4",
+    "static/media/showcase-video.mp4": "/codebite-hackathon-forked/static/media/showcase-video.92431d70ce55a2e6c486.mp4",
+    "static/media/app-store.png": "/codebite-hackathon-forked/static/media/app-store.593721ba5d414afa9833.png",
+    "static/media/screen-updated.png": "/codebite-hackathon-forked/static/media/screen-updated.4b28aca817941e0a2387.png",
+    "static/media/layered-waves-haikei.svg": "/codebite-hackathon-forked/static/media/layered-waves-haikei.aabcf6db0f1b747479bb.svg",
+    "static/media/github.svg": "/codebite-hackathon-forked/static/media/github.269c53d383e31a161b0ba0d61a55591a.svg",
+    "static/media/instagram.svg": "/codebite-hackathon-forked/static/media/instagram.a2c76b905b7d804433c94f52a6b6bd81.svg",
+    "static/media/twitter.svg": "/codebite-hackathon-forked/static/media/twitter.6ece62e1d64b5bdf089aa3b8d5aad49b.svg",
+    "index.html": "/codebite-hackathon-forked/index.html",
+    "static/media/linkedin.svg": "/codebite-hackathon-forked/static/media/linkedin.5a8e4a63c1eeb39023946dc9d0514cdd.svg",
+    "static/media/gem-regular.svg": "/codebite-hackathon-forked/static/media/gem-regular.b691071374648eb10e7e11195bf97ca0.svg",
+    "main.1d1c5b25.css.map": "/codebite-hackathon-forked/static/css/main.1d1c5b25.css.map",
+    "main.199f8532.js.map": "/codebite-hackathon-forked/static/js/main.199f8532.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d1c5b25.css",
+    "static/js/main.199f8532.js"
+  ]
+}

@@ -98,3 +98,43 @@
 .legal-text {
   color: #d0d0d0;
 }
+
+@media screen and (max-width: 960px) {
+  .footer-card {
+    padding: 40px 20px;
+  }
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .footer-socials {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .social-images {
+    width: 28px;
+  }
+
+  .footer-icons {
+    gap: 60px;
+  }
+
+  .footer-trademark {
+    gap: 40px;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-anchors a {
+    font-size: 14px;
+  }
+
+  .footer-images img {
+    width: 140px;
+  }
+}

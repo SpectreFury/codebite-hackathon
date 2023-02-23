@@ -16,8 +16,7 @@ const Awards = () => {
           className="ai-card"
           initial={{ x: -400, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          viewport={{ once: true }}
-        >
+          viewport={{ once: true }}>
           <h2 className="card-heading">Powered by AI</h2>
           <p className="card-paragraph">
             Our experts have developed machine learning models that can help you
@@ -31,8 +30,7 @@ const Awards = () => {
             initial={{ scale: 0, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.4 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
             <div className="award-text">200+</div>
             <div className="award-subtext">Awards</div>
           </motion.div>
@@ -41,8 +39,7 @@ const Awards = () => {
             initial={{ scale: 0, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.6 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
             <div className="position-text">2nd place</div>
             <div className="award-subtext">Best startups of the year</div>
           </motion.div>
@@ -51,8 +48,7 @@ const Awards = () => {
             initial={{ scale: 0, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.8 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
             <div className="freelancer-text">10,000+</div>
             <div className="award-subtext">Freelancers</div>
           </motion.div>
@@ -61,8 +57,7 @@ const Awards = () => {
             initial={{ scale: 0, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
             transition={{ delay: 1 }}
-            viewport={{ once: true }}
-          >
+            viewport={{ once: true }}>
             <div className="percent-text">100%</div>
             <div className="award-subtext">Commitment</div>
           </motion.div>
@@ -73,8 +68,7 @@ const Awards = () => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
-        viewport={{ once: true }}
-      >
+        viewport={{ once: true }}>
         <div className="showcase-text">
           <div className="showcase-heading">A little insight into our work</div>
           <div className="showcase-paragraph">
@@ -89,8 +83,7 @@ const Awards = () => {
             src={ShowcaseVideo}
             autoPlay
             loop
-            muted
-          ></video>
+            muted></video>
         </div>
       </motion.div>
     </section>

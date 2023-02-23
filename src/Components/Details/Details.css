@@ -13,8 +13,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 1rem;
   align-items: center;
   font-size: 64px;
+  font-weight: 600;
+}
+
+.details-text {
+  margin-bottom: 20px;
 }
 
 .text-height {
@@ -25,7 +31,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.1;
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 960px) {
@@ -39,5 +45,9 @@
   .text-container {
     padding: 20px 40px;
     font-size: 24px;
+  }
+
+  .details-background {
+    display: none;
   }
 }

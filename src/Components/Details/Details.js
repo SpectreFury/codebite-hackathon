@@ -18,7 +18,7 @@ const Details = () => {
       ></video>
       <div className="text-container">
         <div className="text-height">
-          <motion.div initial={{ opacity: 0.4 }} whileHover={{ opacity: 1 }}>
+          <motion.div initial={{ opacity: 0.4 }} whileHover={{ opacity: 1 }} className="details-text">
             We know how hard it is to find professionals in the industry and
             we're dedicated to end this problem.
           </motion.div>
