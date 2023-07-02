@@ -11,8 +11,9 @@
 body {
   font-family: "Inter", sans-serif;
   min-height: 100vh;
-  color: #fff;
+  background-color: #000;
   overflow-x: hidden;
+  color: #fff;
 }
 
 ul {
