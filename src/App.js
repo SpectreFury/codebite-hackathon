@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 
 import "./App.css";
 
@@ -11,6 +12,8 @@ import Footer from "./Components/Footer/Footer";
 import Marketplace from "./Components/Marketplace/Marketplace";
 
 function App() {
+  const location = useLocation();
+
   useEffect(() => {
     const trailer = document.querySelector("#trailer");
 
@@ -30,23 +33,25 @@ function App() {
   }, []);
 
   return (
-    <React.Fragment>
-      <Routes>
+    <AnimatePresence>
+      <div id="trailer"></div>
+      <Routes location={location} key={location.pathname}>
         <Route
           path="/"
           element={
-            <React.Fragment>
+            <motion.div
+              exit={{ x: -window.innerWidth, transition: { duration: 0.1 } }}
+            >
               <Hero />
               <Awards />
               <Reviews />
               <Footer />
-            </React.Fragment>
+            </motion.div>
           }
         />
         <Route path="/marketplace" element={<Marketplace />} />
       </Routes>
-      <div id="trailer"></div>
-    </React.Fragment>
+    </AnimatePresence>
   );
 }
 

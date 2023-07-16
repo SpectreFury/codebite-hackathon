@@ -35,7 +35,7 @@ const Hero = () => {
         <ul>
           <li>
             <Link to="/marketplace" className="wave-anchor">
-              <span>Sign Up</span>
+              <span>Experience</span>
               <div className="wave"></div>
             </Link>
           </li>
